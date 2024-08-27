@@ -15,3 +15,5 @@ o	desencriptarTexto(): Esta función toma el texto encriptado y lo convierte de 
 o	copiarTexto(): Esta función copia el resultado encriptado o desencriptado al portapapeles del usuario.
 
 o	limpiar(): Esta función limpia las cajas de texto, donde está el resultado encriptado o desencriptado del usuario.
+
+![imagen](https://github.com/user-attachments/assets/3e8407b4-14d2-4a6b-b56e-0b58abe6d58b)
