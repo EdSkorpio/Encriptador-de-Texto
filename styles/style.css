@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --color-primaria: #a3c7f1;
+    --color-secundaria: #120488;
+    --color-terciaria: #d7ecec;
+    --color-hover: #ac8f8f;
+    --color-texto: #952cd1;
+    
+    --fuente-krona: 'Krona One', sans-serif;
+    --fuente-montserrat: 'Montserrat', sans-serif;
+
+    --font-size-small: 12px;
+    --font-size-medium: 18px;
+    --font-size-large: 24px;
+
+    --button-width: 100%;
+    --button-height: 50px;
+    --border-radius: 24px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+.logo{
+    padding: 2% 0% 0% 0%;
+}
+
+body {
+    font-family: var(--fuente-krona);
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: var(--color-primaria);
+    color: var(--color-secundaria);
+    font-size: 18px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    max-width: 1200px;
+    height: 700px;
+}
+
+.encriptar{
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+    color: var(--color-texto);
+    font-size: 1.1rem;
+    padding: 15px;
+    border-radius: 18px;
+    background-color: var(--color-terciaria);
+    flex-direction: column;
+}
+
+.informacion{
+    height: auto;
+    flex-direction: column; 
+}
+  
+.botones {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+    
+button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    color: var(--color-secundaria);
+}  
+
+.botonencriptar{
+    background-color: #07c4dd;
+    border-radius: 5px;
+}
+
+.botondesencriptar{
+    background-color: #4294f1;
+    border-radius: 5px;
+}
+
+.botoncopiar{
+    background-color: #d682f0;
+    border-radius: 5px;
+}
+
+.botonlimpiar{
+    background-color: #ee7aaa;
+    border-radius: 5px;
+}
+
+.botonencriptar:hover{
+    background-color: var(--color-hover);
+}
+
+.botondesencriptar:hover{
+    background-color: var(--color-hover);
+}
+
+.botoncopiar:hover{
+    background-color: var(--color-hover);
+}
+
+.botonlimpiar:hover{
+    background-color: var(--color-hover);
+}
+
+.busqueda{
+    flex-direction: column;
+    height: auto;
+}
+
+.footer{
+    color:var(--color-secundaria);
+    background-color: #4294f1;
+    text-align: center;
+    font-family: var(--fuente-montserrat);
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.footer__autor{
+    color:var(--color-secundaria);
+    text-align: center;
+    font-family: var(--fuente-krona);
+    font-size: 1.3rem;
+}
+
+
+@media (min-width: 768px) {
+    .header{
+        padding: 5%;  
+   }
+
+    main {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .botones {
+      flex-direction: row;
+      gap: 30px;
+    }
+}
+
+    

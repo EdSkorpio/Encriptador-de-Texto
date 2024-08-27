@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHALLENGE</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <img class="logo">
+        <img src="./Assets/logo_alura.png" alt="Logo de alura"/>
+    </header>
+
+    <main>
+        <section class="encriptar">
+            <h1>Encriptador de Textos</h1>
+            <textarea id="inputText" placeholder="Ingresa el texto a Encriptar o Desencriptar"></textarea><br><br>
+            
+                <div class="informacion">
+                    <img src="./Assets/frame.png" alt="Imagen informativa: Solo ingresar minusculas, sin acentos ni caracteres especiales " />
+                </div>
+
+                <div class="botones">
+                    <button class="botonencriptar" onclick="encryptText()">Encriptar</button>
+                    <button class="botondesencriptar" onclick="decryptText()">Desencriptar</button><br><br>       
+                    <textarea id="outputText" placeholder="Texto Resultado"></textarea><br><br>
+                    <button class="botoncopiar"onclick="copyText()">Copiar Resultado</button>
+                    <button class="botonlimpiar"onclick="limpiar()">Limpiar Texto</button>
+                </div>
+            
+                <img src="./Assets/busqueda.png" alt="Imagen de persona buscando" >
+
+        </section>
+        
+    </main>
+        <footer class="footer">
+            <p>Curso Prácticando Lógica de Programación: Challenge Encriptador de Texto</p>
+            <p class="footer__autor">Desarrollado por: "Eduardo Garcia Alvarez" G7 - ONE 2024</p>
+        </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
